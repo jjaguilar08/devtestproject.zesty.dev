@@ -1,0 +1,125 @@
+{
+    "instance_zuid": "8-eed8c5b383-0wj4bj",
+    "instance": {
+        "views": {
+            "404": {
+                "zuid": "11-8afdac9d95-fn61hg",
+                "type": "404",
+                "updatedAt": "2021-10-08T18:04:55Z",
+                "createdAt": "2021-10-08T18:04:55Z"
+            },
+            "homepage": {
+                "zuid": "11-fca5aa9d95-7zmk68",
+                "type": "templateset",
+                "updatedAt": "2018-08-13T22:56:07Z",
+                "createdAt": "2025-08-11T14:58:04Z"
+            },
+            "loader": {
+                "zuid": "11-bce1ab9d95-g9kz84",
+                "type": "snippet",
+                "updatedAt": "2018-08-13T22:56:07Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "blog": {
+                "zuid": "11-b096eebf8d-phd4r3",
+                "type": "templateset",
+                "updatedAt": "2024-09-20T19:31:23Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "categories": {
+                "zuid": "11-a8bbd8df92-dhs93b",
+                "type": "pageset",
+                "updatedAt": "2024-09-20T19:31:24Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "articles": {
+                "zuid": "11-b4f0d49797-7cldd8",
+                "type": "pageset",
+                "updatedAt": "2024-09-20T19:31:24Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "authors": {
+                "zuid": "11-d2f3d5e1a2-0jhj23",
+                "type": "pageset",
+                "updatedAt": "2024-09-20T19:31:26Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "contact-section": {
+                "zuid": "11-d4c9d5c6e0-634drs",
+                "type": "snippet",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "header": {
+                "zuid": "11-eaa0b5d3e0-76qnsl",
+                "type": "snippet",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "footer": {
+                "zuid": "11-a2c3d6e8e0-1m1k28",
+                "type": "snippet",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "404-page": {
+                "zuid": "11-c4f5f7f5e0-k9jgk5",
+                "type": "snippet",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            }
+        },
+        "styles": {
+            "main.less": {
+                "zuid": "10-8ef6e89c95-qsmq6c",
+                "type": "text/less",
+                "updatedAt": "2018-08-13T22:56:05Z",
+                "createdAt": "2022-09-22T17:55:06Z"
+            },
+            "fontawesome.css": {
+                "zuid": "10-988cd4a9ce-0xfz7k",
+                "type": "text/css",
+                "updatedAt": "2024-09-20T19:31:32Z",
+                "createdAt": "2024-09-20T19:31:32Z"
+            },
+            "styles.less": {
+                "zuid": "10-d8e5b4dbd5-dq3491",
+                "type": "text/less",
+                "updatedAt": "2024-09-20T19:31:33Z",
+                "createdAt": "2024-09-20T19:31:33Z"
+            }
+        },
+        "scripts": {
+            "main.js": {
+                "zuid": "10-fca5ea9c95-tgstmr",
+                "type": "text/javascript",
+                "updatedAt": "2018-08-13T22:56:05Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "zesty.js": {
+                "zuid": "10-96c7d4e5e1-v4dbcq",
+                "type": "text/javascript",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "skel.js": {
+                "zuid": "10-86f6fae9e1-dt5rwj",
+                "type": "text/javascript",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "util.js": {
+                "zuid": "10-bab4e0f5e1-bnjpk9",
+                "type": "text/javascript",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            },
+            "dropotron.js": {
+                "zuid": "10-8290fdf8e1-hhq71g",
+                "type": "text/javascript",
+                "updatedAt": "2024-09-20T19:31:34Z",
+                "createdAt": "2024-09-20T19:31:34Z"
+            }
+        }
+    }
+}
