@@ -5,7 +5,7 @@
 	<div>
 		<div data-barba="container" data-barba-namespace="home">
 		{{current_view}}
-		<div>this is from feature branch</div>
+		<div>this is from loader branch</div>
 		</div>
 	</div>
 	{{include contact-section }}
