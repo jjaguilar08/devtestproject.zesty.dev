@@ -1,47 +1,18 @@
+<!-- LOADER BRANCH VERSION -->
+
 <!-- Banner -->
 <section id="banner" style="background-image: url('{{this.image.getImage()}}')">
 	<div class="inner">
-		<h2>{{this.title}}</h2>
+		<h2>🔄 LOADER BRANCH - {{this.title}}</h2>
 		<h3>{{globals.footer_text}}</h3>
 		<p>{{this.lead_in_sub_header}}</p>
+		<p><strong>Currently on: LOADER BRANCH</strong></p>
 	</div>
 </section>
 
-<!-- One -->
-<section id="one" class="wrapper style1">
-	<div class="container">
-		<div class="inner">
-		<h3>This is my new text: {{this.title}}</h3>
-			<header class="major">
-				<h2>{{this.section_2_header}}</h2>
-			</header>
-			<p>{{this.section_2_sub_header}}</p>
-		</div><span class="device image fit"><img src="{{this.section_2_image.getImage()}}" alt="" /></span>
-	</div>
-</section>
-
-<!-- Two -->
-<section id="two" class="wrapper style2">
-	<div class="container">
-		<div class="row">
-			{{each services as service }}
-			<div class="6u 12u$(narrow)">
-				<section class="feature">
-					<i class="icon"><img style="max-width:60%;" src="{{service.service_icon.getImage()}}?width=116&height=116&fit=bounds"/></i>
-					<h3>{{service.name}}</h3>
-					<p>{{service.description}}</p>
-					<h3>{{service.name}}</h3>
-					<h3>{{service.name}}</h3>
-				</section>
-			</div>
-			{{end-each}}
-		</div>
-	</div>
-</section>
-
-<!-- Blog goes here -->
+<!-- Blog Section (Moved to Second Position) -->
 <section id="three" class="wrapper style3">
-	<h1>This is from homepage loader branch</h1>
+	<h1>📰 Latest Articles - LOADER BRANCH</h1>
 	<div class="container">
 		<div class="row">
 			{{each articles as article sort by article.date ASC limit 3 }}
@@ -59,6 +30,39 @@
 				</section>
 			</div>
 			{{end-each}}
+		</div>
+	</div>
+</section>
+
+<!-- Services Section (Moved to Third Position) -->
+<section id="two" class="wrapper style2">
+	<div class="container">
+		<h2>🔧 Our Services - LOADER BRANCH</h2>
+		<div class="row">
+			{{each services as service }}
+			<div class="6u 12u$(narrow)">
+				<section class="feature">
+					<i class="icon"><img style="max-width:60%;" src="{{service.service_icon.getImage()}}?width=116&height=116&fit=bounds"/></i>
+					<h3>{{service.name}} [LOADER]</h3>
+					<p>{{service.description}}</p>
+				</section>
+			</div>
+			{{end-each}}
+		</div>
+	</div>
+</section>
+
+<!-- About Section (Moved to Fourth Position) -->
+<section id="one" class="wrapper style1">
+	<div class="container">
+		<span class="device image fit"><img src="{{this.section_2_image.getImage()}}" alt="" /></span>
+		<div class="inner">
+			<h3>🎯 Loader Branch Content: {{this.title}}</h3>
+			<header class="major">
+				<h2>{{this.section_2_header}}</h2>
+			</header>
+			<p>{{this.section_2_sub_header}}</p>
+			<p><em>You are viewing the LOADER BRANCH layout</em></p>
 		</div>
 	</div>
 </section>
