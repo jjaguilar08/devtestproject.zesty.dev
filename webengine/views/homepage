@@ -41,7 +41,7 @@
 
 <!-- Blog goes here -->
 <section id="three" class="wrapper style3">
-	<h1>This is from loader branch</h1>
+	<h1>This is from homepage loader branch</h1>
 	<div class="container">
 		<div class="row">
 			{{each articles as article sort by article.date ASC limit 3 }}
